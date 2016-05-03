@@ -1,0 +1,16 @@
+
+
+.title {
+	font-size: 400%;
+	color: white;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.subTitle {
+	font-size: 250%;
+	color: white;
+    font-weight: 500;
+    font-style: italic;
+}

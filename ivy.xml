@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0" 
+	xmlns:m="http://ant.apache.org/ivy/maven"  
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:e="http://ant.apache.org/ivy/extra"
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+	<info module="${project.name}" status="${project.status}" />
+
+	<configurations>
+		<!-- Configurations affect the classpath used for various build tasks and limit the transitivity of a dependency. -->
+		<conf name="compile" />
+		<conf name="provided" />
+		<conf name="runtime" />
+		<conf name="test" />
+		<conf name="master" />
+		<conf name="sources" />
+	</configurations>
+	
+	<dependencies defaultconf="compile" defaultconfmapping="*->default">
+		
+		
+	</dependencies>
+</ivy-module>
